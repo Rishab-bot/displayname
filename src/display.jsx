@@ -33,7 +33,7 @@ export function DisplayName(){
                 <button>Submit</button>
             </form>
 
-            <h4>Full Name : {fullName}</h4>
+            {fullName && <h2>Full Name: {fullName}</h2>}
         </div>
     );
 }
